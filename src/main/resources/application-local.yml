@@ -1,11 +1,9 @@
 spring:
   profiles:
     active: local
-  devtools:
-    livereload:
-      enabled: true
-    restart:
-      enabled: false
+  redis:
+    host: localhost
+    port: 6379
   freemarker:
     cache: false
     template-loader-path: classpath:/templatecha
